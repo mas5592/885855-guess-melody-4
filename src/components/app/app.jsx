@@ -1,16 +1,15 @@
 import React from 'react';
 import WelcomeScreen from '../welcome-screen/welcome-screen.jsx';
-import PropTypes from 'prop-types';
 
-const App = (props) => {
-  const {errorsCount} = props;
-  return <React.Fragment>
-    <WelcomeScreen errorsCount = {errorsCount}/>
-  </React.Fragment>;
+const welcomeButtonClickHandler = () => {};
+const ERRORS_COUNT = 3;
+
+const App = () => {
+  return <>
+    <WelcomeScreen
+      onWelcomeButtonClick = {welcomeButtonClickHandler}
+      errorsCount = {ERRORS_COUNT}
+    />
+  </>;
 };
-
-App.propTypes = {
-  errorsCount: PropTypes.number.isRequired,
-};
-
 export default App;
