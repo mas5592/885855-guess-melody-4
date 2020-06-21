@@ -4,7 +4,7 @@ import WelcomeScreen from './welcome-screen.jsx';
 
 const ERRORS_COUNT = 3;
 
-it(`WelcomeScreen snapshot`, () => {
+it(`Should WelcomeScreen render correctly`, () => {
   const tree = renderer
     .create(<WelcomeScreen
       onWelcomeButtonClick = {() => {}}

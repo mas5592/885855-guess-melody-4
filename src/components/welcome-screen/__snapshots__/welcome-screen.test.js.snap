@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`WelcomeScreen snapshot 1`] = `
+exports[`Should WelcomeScreen render correctly 1`] = `
 <section
   className="welcome"
 >
@@ -38,7 +38,7 @@ exports[`WelcomeScreen snapshot 1`] = `
     className="welcome__rules-list"
   >
     <li>
-      Нужно ответить на все вопросы.
+      Нужно ответить на все вопросы.
     </li>
     <li>
       Можно допустить 
